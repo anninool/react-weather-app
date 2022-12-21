@@ -33,7 +33,7 @@ export default function Weather() {
           <span className="unit">°C</span>
         </div>
         <div className="col-3">
-          <ul>
+          <ul className="atributes">
             <li>Precipitation: 15%</li>
             <li>Humidity: 70%</li>
             <li>Wind: 13km/h</li>
@@ -43,7 +43,7 @@ export default function Weather() {
         <div className="col-6 d-flex flex-row-reverse">
           <div className="weather-card">
             <h1>New York </h1>
-            <ul>
+            <ul className="card-atributes">
               <li>Wednesday 7:00</li>
               <li>Mostly cloudy</li>
             </ul>

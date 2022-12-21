@@ -8,9 +8,10 @@
 
 .Weather h1 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 400;
   margin: 20px 0 0 0;
   line-height: 29px;
+  text-align: right;
 }
 
 .Weather ul {
@@ -19,7 +20,6 @@
 }
 
 .Weather li {
-  font-size: 16px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
@@ -37,7 +37,6 @@
   color: rgb (33, 33, 33);
   font-size: 48px;
   line-height: 64px;
-
   position: relative;
   bottom: -14px;
 }
@@ -49,4 +48,16 @@
   top: -12px;
   margin-left: 4px;
   line-height: 1;
+}
+
+.Weather .atributes {
+  font-size: 13px;
+  line-height: 16px;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.Weather .card-atributes {
+  font-size: 15px;
+  text-align: right;
 }
