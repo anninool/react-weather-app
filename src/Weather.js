@@ -18,8 +18,7 @@ export default function Weather(props) {
       description: response.data.condition.description,
       date: new Date(response.data.time * 1000),
       icon: response.data.condition.icon,
-      iconUrl:
-        "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png",
+      iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
     });
   }
 
