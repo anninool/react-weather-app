@@ -1,18 +1,18 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <div className="row mt-3">
-        <div className="col-3">
-          <img src={props.data.iconUrl} alt={props.data.description} />
-          <span className="temperature">
-            {Math.round(props.data.temperature)}
-          </span>
-          <span className="unit">°C</span>
+      <div className="row mt-4">
+        <div className="col-4">
+          <div className="d-flex">
+            <img src={props.data.iconUrl} alt={props.data.description} />
+            <WeatherTemperature celsius={props.data.temperature} />
+          </div>
         </div>
-        <div className="col-3">
+        <div className="col-4">
           <ul className="atributes">
             <li>Feels like: {Math.round(props.data.feeltemp)}°C</li>
             <li>Humidity: {props.data.humidity}%</li>
@@ -20,7 +20,7 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
 
-        <div className="col-6 d-flex flex-row-reverse">
+        <div className="col-4 d-flex flex-row-reverse">
           <div className="weather-card">
             <h1>{props.data.city} </h1>
             <ul className="card-atributes">

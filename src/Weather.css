@@ -9,7 +9,7 @@
 .Weather h1 {
   font-size: 24px;
   font-weight: 400;
-  margin: 20px 0 0 0;
+  margin: 17px 0 0 0;
   line-height: 29px;
   text-align: right;
 }
@@ -26,8 +26,7 @@
 }
 
 .Weather img {
-  height: 65px;
-  width: 70px;
+  height: 68px;
   margin-right: 10px;
   display: inline-block;
 }
@@ -35,24 +34,22 @@
 .Weather .temperature {
   font-weight: 400;
   color: rgb (33, 33, 33);
-  font-size: 40px;
+  font-size: 48px;
   line-height: 64px;
-  position: relative;
-  bottom: -14px;
 }
 
 .Weather .unit {
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -12px;
+  top: -23px;
   line-height: 1;
 }
 
 .Weather .atributes {
   font-size: 13px;
   line-height: 16px;
-  margin: 20px 0 0 0;
+  margin: 17px 0 0 0;
   padding: 0;
 }
 
