@@ -22,7 +22,7 @@ export default function WeatherForecastDay(props) {
     <div className="WeatherForecastDay">
       <div className="WeatherForecast-day">{day()}</div>
       <img
-        src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+        src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-day.png"
         alt="broken-clouds"
       />
       <div className="WeatherForecast-temperatures">
