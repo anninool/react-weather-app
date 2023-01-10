@@ -18,13 +18,15 @@ export default function WeatherForecastDay(props) {
     return days[day];
   }
 
+  function icon() {
+    let icon = props.data.condition.icon;
+    return `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${icon}.png`;
+  }
+
   return (
     <div className="WeatherForecastDay">
       <div className="WeatherForecast-day">{day()}</div>
-      <img
-        src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/mist-day.png"
-        alt="broken-clouds"
-      />
+      <img src={icon()} alt={props.data.condition.description} />
       <div className="WeatherForecast-temperatures">
         <span className="WeatherForecast-temperature-max">
           {maxTemperature()}
