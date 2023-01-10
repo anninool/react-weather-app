@@ -4,12 +4,14 @@
   padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
+  background: #fcfcfc;
+  background: linear-gradient(to top, #edeaea 0%, #fcfcfc 100%);
 }
 
 .Weather h1 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 17px 0 0 0;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 17px 10px 0 0;
   line-height: 29px;
   text-align: right;
 }
@@ -23,34 +25,39 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  margin-right: 10px;
 }
 
 .Weather img {
-  height: 68px;
+  height: 81px;
   margin-right: 10px;
+  margin-top: -10px;
   display: inline-block;
 }
 
 .Weather .temperature {
-  font-weight: 400;
+  font-weight: 500;
   color: rgb (33, 33, 33);
-  font-size: 48px;
+  font-size: 54px;
   line-height: 64px;
+  padding-top: 20px;
 }
 
 .Weather .unit {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
   position: relative;
   top: -23px;
   line-height: 1;
 }
 
 .Weather .atributes {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 16px;
-  margin: 17px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0;
+  color: #6b6b6b;
+  opacity: 0.9;
 }
 
 .Weather .card-atributes {
